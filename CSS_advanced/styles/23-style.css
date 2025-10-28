@@ -133,7 +133,7 @@ a:active {
     display: block;
 }
 .social-link svg {
-fill: var(--text-color)
+fill: var(--text-color);
 }
 /* visually hidden elements */
 .visually-hidden {
