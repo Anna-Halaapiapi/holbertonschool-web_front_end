@@ -97,7 +97,7 @@ a:active {
     background-color: var(--color-light-grey);
 }
 /* navbar menu */
-.navbar.menu {
+.navbar-menu {
     float: right;
 }
 /* nav */
