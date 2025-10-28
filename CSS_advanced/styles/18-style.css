@@ -110,12 +110,12 @@ a:active {
 
 /* nav items */
 .nav-item {
-  font-family: var(--nav-item-font-family);
-  font-weight: var(--nav-item-font-weight);
-  font-size: var(--nav-item-font-size);
-  letter-spacing: var(--nav-item-letter-spacing);
-  display: var(--nav-item-display);
-  margin: var(--nav-item-margin);
+  font-family: var(--item-font-family);
+  font-weight: var(--item-font-weight);
+  font-size: var(--item-font-size);
+  letter-spacing: var(--item-letter-spacing);
+  display: var(--item-display);
+  margin: var(--item-margin);
 }
 
 /* nav links */
@@ -126,7 +126,7 @@ a:active {
 
 /* nav link hover */
 nav .nav-link:hover {
-  color: var(--nav-item-link-hover);
+  color: var(--item-link-hover);
 }
 
 /* visually hidden elements */
