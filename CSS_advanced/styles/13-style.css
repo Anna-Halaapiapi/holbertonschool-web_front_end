@@ -44,8 +44,8 @@ html {
   font-size: 62.5%;
 }
 /* default style (including <a>) */
-body,
-a {
+body
+{
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
@@ -53,24 +53,22 @@ a {
     line-height: var(--line-height-base);
     text-decoration: none;
 }
-/* unvisited state for links */
-a:link {
-
+/* target all actual links */
+a[href] {
+text-decoration: none;
 }
-
 /* visited state for links */
-a:visited {
+a[href]:visited {
     font-style: italic;
 }
 /* hover state for links */
-a:hover {
+a[href]:hover {
     text-decoration: underline;
 }
 /* active state for links */
-a:active {
+a[href]:active {
     background-color: var(--color-light-grey);
 }
-
 /* visually hidden elements */
 .visually-hidden {
     display: none;
