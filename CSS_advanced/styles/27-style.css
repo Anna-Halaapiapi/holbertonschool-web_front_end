@@ -200,7 +200,7 @@ padding: var(--section-padding);
 .section-hero {
     background-size: 90rem auto;
 }
-.section-title .section-hero {
+.section-hero .section-title {
 margin-bottom: 5rem;
 }
 .section-hero .section-inner{
