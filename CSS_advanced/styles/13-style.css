@@ -53,6 +53,11 @@ a {
     line-height: var(--line-height-base);
     text-decoration: none;
 }
+/* unvisited state for links */
+a:link {
+
+}
+
 /* visited state for links */
 a:visited {
     font-style: italic;
