@@ -180,7 +180,7 @@ fill: var(--text-color);
     text-decoration: none;
 }
 .card-testimonial {
-    text-align: right;
+    text-align: center;
 }
 .card-avatar .card-testimonial {
     border-radius: 50%;
